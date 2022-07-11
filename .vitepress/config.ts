@@ -1,33 +1,23 @@
-module.exports = {
-    title: 'Hello VitePress',
-    description: 'Just playing around.',
+export default {
+    title: 'vitePress',
+    description: 'Vue3 components for learn',
     themeConfig:{
-        logo: 'https://cdn.jsdelivr.net/gh/shengxinjing/static/element3.png',
-        nav: [
-            { text: 'Guide', link: '/guide/' },
-            { text: 'API', link: '/api/' },
-        ],
-        sidebar:{
-          "/":[
-            {
-                text: 'Guide',
-                items: [
-                  {
-                    text: 'Why Vitest',
-                    link: '/guide/why',
-                  }
-                ],
-            },
-            {
-                text: 'API',
-                items: [
-                  {
-                    text: 'API Reference',
-                    link: '/api/',
-                  },
-                ],
-            },
-          ]
-        }
+      logo: 'https://cdn.jsdelivr.net/gh/shengxinjing/static/element3.png',
+      nav: [
+        { text: '组件', link: '/guide' },
+      ],
+      sidebar:{
+        "/":[
+          {text:'通用组件',items:[
+            {text:'Button',link:''},
+          ]}
+        ]
+      }
     },
-}
+    markdown: {
+      config: (md) => {
+        const { demoBlockPlugin } = require('vitepress-theme-demoblock')
+        md.use(demoBlockPlugin)
+      }
+    }
+  }

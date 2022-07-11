@@ -2,3 +2,17 @@ src/.umi
 src/.umi-prodiction
 docs-dist
 node_modules
+lib
+coverage
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.css
+*.scss
+*.woff
+*.ttf
+*.eot
+*.md
+*.snap
+dist

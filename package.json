@@ -12,6 +12,10 @@
     "lint": "eslint \"**/*.{ts,tsx,js,jsx}\"",
     "lint:fix": "eslint --fix \"**/*.{ts,tsx,js,jsx}\""
   },
+  "gitHooks": {
+    "commit-msg": "node scripts/verifyCommit.js",
+    "pre-commit": "lint-staged"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XiaoLiz/Fund-UI.git"
@@ -38,6 +42,7 @@
     "install": "^0.13.0",
     "vite": "^2.9.13",
     "vitepress": "^1.0.0-alpha.4",
+    "vitepress-theme-demoblock": "^1.4.2",
     "vitest": "^0.16.0",
     "vue": "^3.2.37"
   }
