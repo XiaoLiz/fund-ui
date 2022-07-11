@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XiaoLiz/Fund-UI.git"
+    "url": "git+https://github.com/XiaoLiz/fund-ui.git"
   },
   "author": "limanman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/XiaoLiz/Fund-UI/issues"
+    "url": "https://github.com/XiaoLiz/fund-ui/issues"
   },
-  "homepage": "https://github.com/XiaoLiz/Fund-UI#readme",
+  "homepage": "https://github.com/XiaoLiz/fund-ui#readme",
   "keywords": [
     "组件库",
     "Vuu3",
