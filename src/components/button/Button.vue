@@ -1,6 +1,6 @@
 <template>
 <div>
-    <button>默认按钮</button>
+    <button class="el-button">默认按钮</button>
 </div>
 </template>
 
@@ -11,5 +11,9 @@ export default defineComponent({
 })
 </script>
 
-<style lang='scss' scoped>
+<style lang='scss'>
+// 测试
+.el-button{
+  color:red; 
+}
 </style>
