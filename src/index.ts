@@ -7,6 +7,7 @@ const components = [
 ]
 function install (app) {
   components.forEach(component=>{
+    console.log(component)
     app.use(component)
   })
 }
