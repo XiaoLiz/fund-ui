@@ -11,7 +11,8 @@
 ```vue
 <template>
 <div>
-    <fd-button>默认按钮</fd-button>
+    <fd-button>默认按钮123</fd-button>
+</div>
 </template>
 ```
 

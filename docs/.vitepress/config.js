@@ -18,7 +18,9 @@ export default {
     markdown: {
       config: (md) => {
         const { demoBlockPlugin } = require('vitepress-theme-demoblock')
+        console.log(demoBlockPlugin)
         md.use(demoBlockPlugin)
+
       }
     }
   }
